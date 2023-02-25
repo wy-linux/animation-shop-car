@@ -1,0 +1,38 @@
+.car-container {
+    position: relative;
+    max-width: 500px;
+    height: 400px;
+    margin: auto;
+  }
+.car-box {
+  display: flex;
+  font-size: 30px;
+  font-weight: 700;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 10px;
+}
+.car-box button {
+  /* display: inline-block; */
+  width: 40px;
+  height: 40px;
+  background-color: #ff7744;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.shop-car {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 700;
+  left: 20px;
+  bottom: 20px;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+}
+.shop-car>img {
+  width: 100%;
+}
+  
